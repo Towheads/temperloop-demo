@@ -2,7 +2,7 @@
 
 This is a **scratch demo repository**, script-generated and reset on
 demand by `seed-demo-repo.sh` in the
-[temperloop](https://github.com/Towheads/temperloop) repo.  # denylist:allow — the kernel repo's own public URL (its identity, same category-1 rationale as bootstrap.sh's kernel-repo URL)
+[temperloop](https://github.com/Towheads/temperloop) repo.
 
 It exists so the `temperloop` CLI's `try --demo` command has a real,
 disposable repo to run one safe-tier issue -> PR tick against. Nothing
