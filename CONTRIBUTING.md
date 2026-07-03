@@ -5,4 +5,4 @@ and reset on demand — contributions here are for demo/testing purposes
 only, not a real open-source project.
 
 If you'd like to recieve updates about the real project this demo
-supports, see the foundation-kernel repository instead.
+supports, see the temperloop repository instead.
