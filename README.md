@@ -1,10 +1,10 @@
-# foundation-kernel-demo
+# temperloop-demo
 
 This is a **scratch demo repository**, script-generated and reset on
 demand by `seed-demo-repo.sh` in the
-[foundation-kernel](https://github.com/Towheads/foundation-kernel) repo.
+[temperloop](https://github.com/Towheads/temperloop) repo.  # denylist:allow — the kernel repo's own public URL (its identity, same category-1 rationale as bootstrap.sh's kernel-repo URL)
 
-It exists so the `foundation` CLI's `try --demo` command has a real,
+It exists so the `temperloop` CLI's `try --demo` command has a real,
 disposable repo to run one safe-tier issue -> PR tick against. Nothing
 here is hand-edited — every file and every seeded issue is produced by
 the seed script, and its `--reset` mode returns the repo to a known
