@@ -3,4 +3,4 @@
 # Usage: ./greet.sh <name>
 set -euo pipefail
 name="${1:-World}"
-echo "Helllo, ${name}!"
+echo "Hello, ${name}!"
