@@ -3,4 +3,4 @@
 # Usage: ./add_one.sh <integer>
 set -euo pipefail
 n="${1:?usage: add_one.sh <integer>}"
-echo $(( n + 2 ))
+echo $(( n + 1 ))
