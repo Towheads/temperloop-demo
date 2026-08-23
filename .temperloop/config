@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "generated_at": "2026-08-23T04:46:46Z",
+  "probe": {
+    "schema": 1,
+    "probe": "conventions-probe",
+    "generated_at": "2026-08-23T04:46:45Z",
+    "repo": {
+      "dir": null,
+      "remote_url": "https://github.com/Towheads/temperloop-demo.git",
+      "gh_repo": "Towheads/temperloop-demo",
+      "default_branch": "main"
+    },
+    "branch_naming": {
+      "detected": true,
+      "pattern": "type/slug",
+      "prefixes": [
+        "demo"
+      ],
+      "sample": [
+        "demo/issue-18",
+        "demo/issue-19"
+      ],
+      "sample_size": 2
+    },
+    "branch_protection": {
+      "available": false,
+      "reason": "skipped — gh api call failed (auth, network, or permissions; run 'gh api repos/Towheads/temperloop-demo/branches/main/protection' by hand to see why)",
+      "protected": null,
+      "required_status_checks": null,
+      "required_reviews": null
+    },
+    "ci": {
+      "providers": [],
+      "workflows": []
+    },
+    "commands": {
+      "test": [],
+      "lint": [],
+      "sources": []
+    },
+    "commit_style": {
+      "convention": "conventional-commits",
+      "conventional_commits_pct": 100,
+      "sample_size": 20,
+      "pr_template": null
+    },
+    "docs": {
+      "agents_md": false,
+      "claude_md": false,
+      "conventions_md": false,
+      "found": []
+    },
+    "labels": {
+      "available": true,
+      "reason": null,
+      "taxonomy": [
+        {
+          "name": "bug",
+          "color": "d73a4a",
+          "description": "Something isn't working"
+        },
+        {
+          "name": "demo-seed",
+          "color": "5319e7",
+          "description": "Seeded by seed-demo-repo.sh - script-generated, never hand-edited"
+        },
+        {
+          "name": "documentation",
+          "color": "0075ca",
+          "description": "Improvements or additions to documentation"
+        },
+        {
+          "name": "duplicate",
+          "color": "cfd3d7",
+          "description": "This issue or pull request already exists"
+        },
+        {
+          "name": "enhancement",
+          "color": "a2eeef",
+          "description": "New feature or request"
+        },
+        {
+          "name": "fnd:host/session:Mac-mini:922cbf1c",
+          "color": "fbca04",
+          "description": "fnd: tracker label (issues-only backend)"
+        },
+        {
+          "name": "fnd:host/session:TravisBook:demo",
+          "color": "fbca04",
+          "description": "fnd: tracker label (issues-only backend)"
+        },
+        {
+          "name": "fnd:status:in-progress",
+          "color": "fbca04",
+          "description": "fnd: tracker label (issues-only backend)"
+        },
+        {
+          "name": "good first issue",
+          "color": "7057ff",
+          "description": "Good for newcomers"
+        },
+        {
+          "name": "help wanted",
+          "color": "008672",
+          "description": "Extra attention is needed"
+        },
+        {
+          "name": "invalid",
+          "color": "e4e669",
+          "description": "This doesn't seem right"
+        },
+        {
+          "name": "question",
+          "color": "d876e3",
+          "description": "Further information is requested"
+        },
+        {
+          "name": "wontfix",
+          "color": "ffffff",
+          "description": "This will not be worked on"
+        }
+      ],
+      "prefixes": [
+        "fnd"
+      ]
+    }
+  },
+  "tracker": {
+    "mode": "issues",
+    "board": 1,
+    "boards_conf_path": "workflows/scripts/board/boards.conf",
+    "boards_conf_entry": "board.1.repo=Towheads/temperloop-demo\nboard.1.backend=issues"
+  },
+  "installs": [
+    {
+      "type": "proposal_pr",
+      "branch": "foundation-init/config",
+      "pr_number": 35,
+      "url": "https://github.com/Towheads/temperloop-demo/pull/35"
+    }
+  ]
+}
